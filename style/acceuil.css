@@ -54,6 +54,7 @@ main p{
 main aside + aside hr{
     width: 80%;
     margin: 10px;
+    color: #439592;
 }
 
 main aside{
