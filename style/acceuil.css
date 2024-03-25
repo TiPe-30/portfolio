@@ -1,7 +1,7 @@
 main {
     display: flex;
     justify-content: center;
-    gap: 90vh;
+    gap: 50%;
     margin: 100px;
     margin-bottom: 280px;
 }
@@ -65,7 +65,7 @@ main aside{
     main{
         flex-direction: column;
         gap: 100px;
-        margin: 100px;
+        margin: 20px 10px 20px 10px;
     }
     main aside:first-child a{
         width: 70%;
@@ -76,6 +76,10 @@ main aside{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    main aside h2{
+        text-align: center;
     }
 
     main aside:first-child a{
