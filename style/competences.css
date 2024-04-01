@@ -18,16 +18,28 @@ main section:first-child div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 0.5;
+    transition: 400ms;
+    gap: 25px;
 }
 
-h1,p{
+main section:first-child div p,h1{
+    margin: 0;
     color: white;
 }
 
-main section:first div a{
-    border: 2px solid ;
-    padding: 20px;
+main div a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
+    width: 40%;
+    border: 2px solid #439592;
+    text-decoration: dashed;
+    color: #439592;
+}
+
+main section:first-child div:hover{
+    opacity: 1;
+    transform: scale(1.05);
 }
