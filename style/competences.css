@@ -37,6 +37,7 @@ main div a{
     border: 2px solid #439592;
     text-decoration: dashed;
     color: #439592;
+    border-radius: 10px;
 }
 
 main section:first-child div:hover{
