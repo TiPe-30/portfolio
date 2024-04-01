@@ -1,0 +1,33 @@
+main section:first-child div > img{
+    width: 500px;
+    height: 300px;
+}
+
+main{
+    margin-top: 40px;
+}
+
+main section:first-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section:first-child div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,p{
+    color: white;
+}
+
+main section:first div a{
+    border: 2px solid ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
