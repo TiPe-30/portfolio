@@ -20,7 +20,7 @@
 }
 
 main{
-    margin-top: 30px;
+    margin: 30px 0px 0px 0px;
 }
 
 .text-projet{
@@ -36,10 +36,24 @@ section{
     margin: 60px 30px 30px 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .tab-text{
     margin-left: 50px;
+}
+
+#img_mach_learning{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#img_mach_learning output{
+    width: 30px;
+    color: #52ac58;
+    writing-mode: vertical-rl;
+    text-align: center;
 }
 
 section img{
@@ -47,10 +61,13 @@ section img{
     height: 500px;
 }
 
-@media screen and(min-width: 700px) {
-    section{
+@media screen and (max-width: 1200px) {
+    .descr-all{
         display: flex;
         flex-direction: column;
     }
-    
+
+    section{
+        flex-direction: column;
+    }
 }
