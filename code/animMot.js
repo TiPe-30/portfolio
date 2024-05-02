@@ -10,4 +10,4 @@ function genereMot(){
     loutupt.textContent = mot;
 }
 
-setInterval(genereMot,200);
+setInterval(genereMot,1500);
