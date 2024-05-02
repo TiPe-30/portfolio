@@ -5,7 +5,7 @@ const loutupt = document.querySelector("output");
 function genereMot(){
     let mot = "";
     for(let i = 0;i < 50;i++){
-        mot += String.fromCharCode(Math.ceil(Math.random()*(43+127)));
+        mot += String.fromCharCode(Math.ceil(Math.random()*(128)));
     }
     loutupt.textContent = mot;
 }
