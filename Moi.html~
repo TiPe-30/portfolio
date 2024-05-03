@@ -50,7 +50,7 @@
                         </label>
                     </form>
                     <div id="les_boutons">
-                        <button id="contact2">RETOUR</button>
+                        <button id="contact2">CONTACT</button>
                         <button id="envoie">ENVOYER</button>
                     </div>
                 </div>

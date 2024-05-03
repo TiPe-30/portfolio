@@ -17,15 +17,28 @@ main div aside:first-child{
     display: none;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 
 #form-contact form{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+}
+
+#les_boutons{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    padding: 30px 0px 0px 50px;
+    width: 400px;
+}
+
+#form-contact form textarea{
+    max-height: 60px;
+    max-width: 250px;
 }
 
 main div aside ul{
@@ -46,7 +59,6 @@ main div aside button{
     border-radius: 10px;
     color: white;
     transition: 300ms;
-    margin: 30px 0px 30px 65px;
 }
 
 #contact{
