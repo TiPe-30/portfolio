@@ -1,4 +1,4 @@
-main div{
+main > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,11 +15,23 @@ main div aside:first-child{
 
 #form-contact{
     display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px 0px 50px;
 }
 
 main div aside ul{
     list-style: none;
 }
+
 main div aside ul li{
     padding: 10px;
     color: white;
@@ -33,11 +45,20 @@ main div aside button{
     border: 3px solid #6db7c7;
     border-radius: 10px;
     color: white;
-    margin: 30px 0px 30px 65px;
     transition: 300ms;
+    margin: 30px 0px 30px 65px;
+}
+
+#contact{
+    margin: 30px 0px 30px 65px;
 }
 
 main div aside button:hover{
     transform: scale(1.10);
     text-decoration: underline;
+}
+
+#form-contact label{
+    color: #6db7c7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

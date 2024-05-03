@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="./img/attachment_131570475.png">
     <link rel="stylesheet" href="./style/moi.css">
     <link rel="stylesheet" href="./style/header-footer.css">
+    <script src="./code/contactForm.js" async></script>
 </head>
 
 <body>
@@ -29,13 +30,15 @@
     <main>
         <div>
             <aside>
-                <ul>
-                    <li>Tristan</li>
-                    <li>PETIT</li>
-                    <li>tristan.petit@univ-grenoble-alpes.fr</li>
-                    <li>Grenoble</li>
-                </ul>
-                <button id="contact">CONTACT</button>
+                <div id="infom">
+                    <ul>
+                        <li>Tristan</li>
+                        <li>PETIT</li>
+                        <li>tristan.petit@univ-grenoble-alpes.fr</li>
+                        <li>Grenoble</li>
+                    </ul>
+                    <button id="contact">CONTACT</button>
+                </div>
                 <div id="form-contact">
                     <form>
                         <label for="Nom">
@@ -43,12 +46,15 @@
                             <input type="text" id="fname" name="fname"><br>
                             <label for="lname">Prenom : </label><br>
                             <input type="text" id="lname" name="lname">
+                            <label for="message">Message : </label><br>
+                            <textarea name="message" id="area-text" rows="5" cols="22" maxlength="100"></textarea>
                         </label>
                     </form>
+                    <button id="contact2">CONTACT</button>
                 </div>
             </aside>
             <aside>
-                
+
             </aside>
         </div>
         <section></section>
