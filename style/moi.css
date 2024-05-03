@@ -39,4 +39,5 @@ main div aside button{
 
 main div aside button:hover{
     transform: scale(1.10);
+    text-decoration: underline;
 }

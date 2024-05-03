@@ -78,6 +78,10 @@ section img{
     color: white;
 }
 
+#link-projet div a:hover{
+    text-decoration: underline;
+}
+
 #link-projet div{
     display: flex;
     justify-content: center;
