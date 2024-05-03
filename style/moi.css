@@ -2,9 +2,34 @@ main div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px 0px 80px 0px;
 }
 
 main div aside:first-child{
     flex-basis: 500px;
     flex-shrink: 1;
+    align-items: center;
+}
+
+main div aside ul{
+    list-style: none;
+}
+main div aside ul li{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+main div aside button{
+    width: 30%;
+    height: 45px;
+    background-color: #0a1930;
+    border: 3px solid #6db7c7;
+    border-radius: 10px;
+    color: white;
+    margin: 0px 0px 0px 40px;
+}
+
+main div aside button:hover{
+    
 }
