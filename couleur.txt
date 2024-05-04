@@ -1,8 +1,0 @@
-Couleur arrière plan acceuil : #0f172a
-couleur verte vue pour les caractères: #45a19e
-
-police d'écriture : ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
-"Segoe UI Emoji","Segoe UI Symbol","Noto Color#45a19e Emoji"
-
-Site Pour les idées : 
-- https://brittanychiang.com/
