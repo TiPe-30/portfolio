@@ -15,7 +15,6 @@ button.onclick = (e)=>{
 }
 
 button2.onclick = (e)=>{
-    console.log(e);
     e.preventDefault();
     if(!buttonV){
         form_contact.style.display = "flex";
