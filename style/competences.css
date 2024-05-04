@@ -3,7 +3,7 @@ main section:first-child div > img{
     height: 300px;
 }
 
-m6ain{
+main{
     margin-top: 40px;
 }
 
@@ -43,4 +43,10 @@ main div a{
 main section:first-child div:hover{
     opacity: 1;
     transform: scale(1.05);
+}
+
+main section div img{
+    width: 35%;
+    height: 20%;
+    border-radius: 20px;
 }
