@@ -72,3 +72,25 @@ main section:last-child div p, li{
 #text{
     display: block;
 }
+
+@media screen and (max-width: 1000px) {
+    main section:last-child div{
+        flex-direction: column;
+    }
+    main section:last-child div p, #text{
+        flex-basis: 500px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    main section:last-child div p, #text{
+        flex-basis: 400px;
+    }
+    main section div img{
+        width: 40vb;
+        height: 25vh;
+        border-radius: 20px;
+    }
+
+}
