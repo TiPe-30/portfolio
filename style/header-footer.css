@@ -55,6 +55,7 @@ header a{
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Partie FOOTER */
