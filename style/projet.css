@@ -57,22 +57,22 @@ section{
     height: 500px;
 }
 
-#link-projet{
+.link-projet{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#link-projet div a{
+.link-projet div a{
     font-size: 20px;
     text-decoration: dashed;
     color: white;
 }
 
-#link-projet div a:hover{
+.link-projet div a:hover{
     text-decoration: underline;
 }
 
-#link-projet div{
+.link-projet #link-class, #link-sys{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ section{
     border-radius: 20px;
 }
 
-#link-class img, #link-sys img{
+.link-projet img, #link-sys img{
     height: 100px;
 }
 
