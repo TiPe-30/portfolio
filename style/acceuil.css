@@ -36,6 +36,7 @@ main aside:first-child a{
 
 main aside:first-child a:hover{
     transform: scale(1.10);
+    text-decoration: underline;
 }
 
 

@@ -57,7 +57,7 @@ main section:last-child div{
     align-items: center;
     justify-content: center;
     gap: 10%;
-    padding: 60px 0px 60px 0px;
+    padding: 90px 0px 90px 0px;
 }
 
 main section:last-child div p, #text{
