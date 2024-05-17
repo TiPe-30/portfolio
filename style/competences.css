@@ -85,6 +85,16 @@ main section:last-child div p, li{
 
 }
 
+@media screen and (max-width: 1400px) {
+    main section:first-child{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 800px) {
     main section:last-child div p, #text{
         flex-basis: 400px;
