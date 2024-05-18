@@ -77,13 +77,13 @@ section{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    padding: 5px;
     border: 4px solid #419290;
     border-radius: 20px;
 }
 
 .link-projet img, #link-sys img{
-    height: 100px;
+    height: 80px;
 }
 
 #link-sys, #link-class{
