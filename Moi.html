@@ -40,19 +40,22 @@
                     <button id="contact">CONTACT</button>
                 </div>
                 <div id="form-contact">
-                    <form>
-                            <label for="fname">Nom : </label><br>
-                            <input type="text" id="fname" name="fname"><br>
-                            <label for="lname">Prenom : </label><br>
-                            <input type="text" id="lname" name="lname">
-                            <label for="message">Message : </label><br>
-                            <textarea name="message" id="area-text" rows="5" cols="22" maxlength="150"></textarea>
+                    <form method="get" action="form.php">
+                        <label for="fname">Nom : </label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Prenom : </label><br>
+                        <input type="text" id="lname" name="lname" required>
+                        <label for="aMail">Email : </label><br>
+                        <input type="text" id="aMail" name="aMail" required>
+                        <label for="message">Message : </label><br>
+                        <textarea name="message" id="area-text" rows="5" cols="22" maxlength="150" required></textarea>
                         </label>
+                        <div id="les_boutons">
+                            <button id="contact2">RETOUR</button>
+                            <button id="envoie" type="submit">ENVOYER</button>
+                        </div>
                     </form>
-                    <div id="les_boutons">
-                        <button id="contact2">RETOUR</button>
-                        <button id="envoie">ENVOYER</button>
-                    </div>
+                    
                 </div>
             </aside>
             <aside>
@@ -64,7 +67,8 @@
         <div class="references">
             <a href="https://github.com/TiPe-30?tab=repositories"><img
                     src="./img/socialNetwork/github-6980894_1280.webp"></a>
-            <a href="https://www.linkedin.com/in/tristan-petit-1b1a7a2b1/"><img src="./img/socialNetwork/linkedin-logo_578229-227.avif"></a>
+            <a href="https://www.linkedin.com/in/tristan-petit-1b1a7a2b1/"><img
+                    src="./img/socialNetwork/linkedin-logo_578229-227.avif"></a>
             <p>2024 Tristan Petit</p>
         </div>
         <img src="./img/Logo-IUT2.jpg" id="logoIUT2">
