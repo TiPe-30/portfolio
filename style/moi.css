@@ -73,3 +73,12 @@ main div aside button:hover{
     color: #6db7c7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+main div aside + aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Moi/image-chantier.jpg);
+    background-size: contain;
+    width: 70%;
+}
