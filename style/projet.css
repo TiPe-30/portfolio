@@ -112,3 +112,9 @@ section:last-child{
     }
 }
 
+@media screen and (max-width: 1200px) {
+    section div img{
+        width: 200px !important;
+    }
+
+}
