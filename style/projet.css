@@ -62,11 +62,6 @@ section:last-child{
     text-align: center;
 }
 
-#img_mach_learning img, #img-nettoyage{
-    width: 700px;
-    height: 500px;
-}
-
 .link-projet{
     display: flex;
     justify-content: space-around;
@@ -92,14 +87,8 @@ section:last-child{
     border-radius: 20px;
 }
 
-.link-projet img, #link-sys img{
-    height: 80px;
-}
 
-#link-sys, #link-class{
-    width: 300px;
-    height: 100px;
-}
+
 
 @media screen and (max-width: 1200px) {
     .descr-all{
@@ -112,9 +101,10 @@ section:last-child{
     }
 }
 
-@media screen and (max-width: 1200px) {
-    section div img{
-        width: 200px !important;
+@media screen and (max-width: 800px) {
+    #img_mach_learning img, #img-nettoyage{
+        width: 400px !important;
+        height: 250px !important;
     }
 
 }
