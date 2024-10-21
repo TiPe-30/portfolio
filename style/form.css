@@ -39,6 +39,7 @@ hr{
     width: 70%;
     position: relative;
     right: 15%;
+    color: white;
 }
 
 a{
@@ -48,14 +49,18 @@ a{
     height: 60px;
     color: white;
     text-decoration: none;
-    border: white 2px solid;
     width: 90px;
     background-color: var(--color-blue-policy);
-    border-radius: 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 300ms;
+}
+
+a:hover{
+    opacity: 1;
 }
 
 span{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
