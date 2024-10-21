@@ -61,6 +61,7 @@ header nav{
 /* Partie FOOTER */
 footer, .references{
     display: flex;
+    align-items: center;
 }
 
 footer{
@@ -82,3 +83,7 @@ footer .references img{
     border-radius: 10px;
 }
 
+img[id="logoIUT2"]{
+    width: 80px;
+    height: 40px;
+}
