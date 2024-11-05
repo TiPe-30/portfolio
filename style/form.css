@@ -26,7 +26,7 @@ main p{
     color: var(--color-blue-policy);
 }
 
-.check{
+div[class="check"]{
     display: flex;
     justify-content: space-between;
     align-items: center;
