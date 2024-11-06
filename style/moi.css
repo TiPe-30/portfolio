@@ -91,3 +91,7 @@ main{
 main section{
     width: 50%;
 }
+
+main section p {
+    color: white;
+}
