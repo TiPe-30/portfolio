@@ -82,3 +82,12 @@ main div aside + aside {
     background-size: contain;
     width: 70%;
 }
+
+main{
+    display: flex;
+    flex-direction: wrap;
+}
+
+main section{
+    width: 50%;
+}
