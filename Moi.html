@@ -5,89 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Tristan</title>
-    <link rel="icon" type="image/x-icon" href="./img/attachment_131570475.png">
+    <link rel="icon" type="image/x-icon" href="./img/Moi/attachment_131570475.png">
     <link rel="stylesheet" href="./style/moi.css">
     <link rel="stylesheet" href="./style/header-footer.css">
     <script src="./code/contactForm.js" async></script>
 </head>
 
 <body>
-    <header>
-        <!--Barre de navigation-->
+   <header>
+        <!-- Barre de navigation -->
         <nav>
-            <!--Elements redirection vers les pages-->
+            <!-- Elements de redirection vers les pages -->
             <p>Portfolio</p>
             <div class="btn-nav">
                 <ul>
                     <li><a href="./index.html"><span>01.</span>Acceuil</a></li>
                     <li><a href="./Projet.html"><span>02.</span>Projet</a></li>
                     <li><a href="./Competences.html"><span>03.</span>Competences</a></li>
-                    <li><a href="./Moi.html"><span>04.</span>Moi</a></li>
+                    <li><a href="./experiences.html"><span>04.</span>Expériences</a></li>
+                    <li><a href="./Moi.html"><span>05.</span>Moi</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <!--Formulaire de contact-->
-        <div>
-            <aside>
-                <div id="infom">
-                    <ul>
-                        <li>Tristan</li>
-                        <li>PETIT</li>
-                        <li>tristan.petit@univ-grenoble-alpes.fr</li>
-                        <li>Grenoble</li>
-                    </ul>
-                    <button id="contact">CONTACT</button>
-                </div>
-                <div id="form-contact">
-                    <form method="get" action="form.php">
-                        <label for="fname">Nom : </label><br>
-                        <input type="text" id="fname" name="fname" required><br>
-                        <label for="lname">Prenom : </label><br>
-                        <input type="text" id="lname" name="lname" required>
-                        <label for="aMail">Email : </label><br>
-                        <input type="text" id="aMail" name="aMail" required>
-                        <label for="message">Message : </label><br>
-                        <textarea name="message" id="area-text" rows="5" cols="22" maxlength="150" required></textarea>
-                        </label>
-                        <div id="les_boutons">
-                            <button id="contact2">RETOUR</button>
-                            <button id="envoie" type="submit">ENVOYER</button>
+        <!--Partie philosophie-->
+        <section id="philo">
+            <div id="text-intro">
+                <h1>Eh oui, une de mes passions est de penser ! <br>
+                    Quelques ouvrages philosophiques qui m'ont marqué :</h1>
+            </div>
+            
+            <div id="peopole">
+                <div class="container">
+                    <div data-text="Pensées" style="--r:-15;" class="glass">
+                        <img src="./img/Moi/Pensee-Blaise-Pascal.png" alt="blaise pascal">
+                        <div class="text-titre">
+                            <h2>Blaise pascal</h2>
+                        <p class="text">Génie de la philosophie morale, 
+                            des mathématiques, et pilier de ma pensée.</p>
                         </div>
-                    </form>
+                    </div>
+                    <div data-text="Le capital" style="--r:5;" class="glass">
+                        <img src="./img/Moi/Le-Capital.jpg" alt="le capital">
+                        <div class="text-titre">
+                            <h2>Karl Marx</h2>
+                        <p class="text">Grand analyste du capitalisme et de ses défauts,
+                            mais surtout de ses limites...
+                        </p>
+                        </div>
+                    </div>
+                    <div data-text="Système totalitaire" style="--r:25;" class="glass">
+                        <img src="./img/Moi/Les_originies_totalitarisme.jpg" alt="hannah harendt">
+                        <div class="text-titre">
+                            <h2 style="text-align: center;">Hannah<br> Arendt</h2>
+                        <p class="text">Avec tocqueville, on a ici un 
+                            des aboutissement de la pensée politique.
+                        </p>
+                        </div>
+                    </div>
+                    <div data-text="L'art de la guerre" style="--r:-10;" class="glass">
+                        <img src="./img/Moi/art-de-la-guerre.jpg" alt="art de la guerre">
+                        <div class="text-titre">
+                            <h2>Sun Tzu</h2>
+                        <p class="text">Grand stratège militaire, et pilier de 
+                            la pensée et de la stratégie.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Partie Cinéma-->
+        <section id="cinema">
+            <div id="cine-crime">
+                <p style="color: white;">La dualité entre ame humaine et criminel</p>
+                <div>
+                    <div class="wrapper">
+                    <div class="inner" style="--quantity: 10;">
+                        <div class="card" style="--index: 0;--color-card: 142, 249, 252;">
+                        <div class="img" id="once-upon-a-time"></div>
+                        </div>
+                        <div class="card" style="--index: 1;--color-card: 142, 252, 204;">
+                        <div class="img" id="godfather"></div>
+                        </div>
+                        <div class="card" style="--index: 2;--color-card: 142, 252, 157;">
+                        <div class="img" id="samourai"></div>
+                        </div>
+                        <div class="card" style="--index: 3;--color-card: 215, 252, 142;">
+                        <div class="img" id="red-circle"></div>
+                        </div>
+                        <div class="card" style="--index: 4;--color-card: 252, 252, 142;">
+                        <div class="img" id="seven"></div>
+                        </div>
+                        <div class="card" style="--index: 5;--color-card: 252, 208, 142;">
+                        <div class="img" id="hana-bi"></div>
+                        </div>
+                        <div class="card" style="--index: 6;--color-card: 252, 142, 142;">
+                        <div class="img" id="kids return"></div>
+                        </div>
+                        <div class="card" style="--index: 7;--color-card: 252, 142, 239;">
+                        <div class="img" id="doulos"></div>
+                        </div>
+                        <div class="card" style="--index: 8;--color-card: 204, 142, 252;">
+                        <div class="img" id="scarface"></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cine-jap">
+                <p>L'univers le plus riche qui m'est été donné de voir</p>
+                <div>
 
                 </div>
-            </aside>
-            <aside>
-            </aside>
-        </div>
-        <!--Partie concernant les différentes passion-->
-        <section>
-            <p>
-            En dehors de l'informatique j'ai plusieurs passion dans la vie : 
-tel que le cinema. J'ai développé cette passion au fur et à mesure 
-des années, et j'aime beaucoup de genre différent tel que la science 
-fiction, le film polar ou mafieux, mais également l'animation en vouant
-un véritable culte à l'animation japonaise des studios ghibli et de miyazaki.
-D'avantage de développement peuvent être obtenue sur mes goûts cinématographique
-en suivant ce lien(lien de letterBoxd), c'est une plateforme assez en vogue pour
-parler film plus spécifiquement.
-
-La littérature fait aussi partis des grands passe temps de ma vie. Je lisais
-des dizaines de livres par an en étant petit, hors ceux scolaires bien entendu,
-mais en étant enfant mais toujours un peu maintenant j'apprenais la grande majorité
-de mes connaissances dans les livre étant donné que je lisais beaucoup de revue scientifique
-et d'encyclopédie. Cela révèle un autre point important chez moi : la curiosité.
-Les romans sont des supports que j'aime beaucoup, même si les BD et les mangas
-sont également des moyens de lecture que j'aime vraiment.
-(image de livre)
-
-D'autres passion hors informatique tel que le sport ou encore ( et surtout) la musique 
-font partie des pass temps que j'aime bien entreprendre 
-</p>
+            </div>
+            <div id="director">
+                <!--Utilisation de la roue qui tourne-->
+            </div>
         </section>
     </main>
+    <div id="contact">
+        <a href="mailto:tristan.petit04@gmail.com?subject=[PORTFOLIO]" class="cta" style="text-decoration: none;">
+  <span>Contact &nbsp;</span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1,5 L11,5" stroke="currentColor" stroke-width="2" fill="none"></path>
+    <polyline points="8 1 12 5 8 9" stroke="currentColor" stroke-width="2" fill="none"></polyline>
+  </svg>
+</a>
+
+<a href="./img/CV_TRISTAN_PETIT.pdf" class="cta" style="text-decoration: none;">
+  <span>CV &nbsp;</span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1,5 L11,5" stroke="currentColor" stroke-width="2" fill="none"></path>
+    <polyline points="8 1 12 5 8 9" stroke="currentColor" stroke-width="2" fill="none"></polyline>
+  </svg>
+
+</a>
+
+    </div>
     <footer>
         <div class="references">
             <a href="https://github.com/TiPe-30?tab=repositories"><img

@@ -9,6 +9,26 @@
     align-items: center;
 }
 
+.descr-all > h1 {
+    text-align: center;
+    color: white;
+}
+
+.text-projet > h2 {
+    text-align: center;
+    color: white;
+}
+
+.text-projet ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-projet ul li {
+    padding: 10px;
+}
+
 .img-projet h1{
     font-size: 60px;
     color: #2efc5a;

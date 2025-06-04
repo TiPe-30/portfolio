@@ -1,0 +1,62 @@
+
+.img-projet-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/projet-pro/image-cadenas-cyber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.img-projet-pro h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.img-point{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+section p, .point-impo ul li {
+    font-size: 18px;
+    color: white;
+}
+
+#econocom-text{
+    display: flex;
+    justify-content: center;
+}
+
+#econocom-text p {
+    width: 80%;
+}
+
+.point-impo ul li{
+    padding: 10px;
+}
+
+.point-impo h3{
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

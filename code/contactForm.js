@@ -1,3 +1,4 @@
+/*
 const form_contact = document.getElementById("form-contact"), button = document.getElementById("contact"),button2 = document.getElementById("contact2")
 information = document.getElementById("infom");
 let buttonV = false;
@@ -26,3 +27,4 @@ button2.onclick = (e)=>{
     buttonV =! buttonV;
 }
 
+*/
