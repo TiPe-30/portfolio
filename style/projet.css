@@ -53,17 +53,6 @@ p a {
     color: gray;
 }
 
-section{
-    margin: 60px 30px 30px 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-section:last-child{
-    flex-wrap: wrap-reverse;
-}
 
 .tab-text{
     margin-left: 50px;
@@ -121,22 +110,62 @@ section:last-child{
     height: 100px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
+    #img_mach_learning img, #img-nettoyage{
+        width: 500px !important;
+        height: 350px;
+    }
+
     .descr-all{
         display: flex;
+        gap: 50px;
         flex-direction: column;
     }
 
     section{
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 800px) {
-    #img_mach_learning img, #img-nettoyage{
-        width: 500px !important;
-        height: 350px;
+    #mega {
+        display: flex;
+        flex-direction: column;
     }
+
     
+}
+
+@media screen and (min-width: 800px) {
+    
+    #megaSAE{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descr-all{
+        display: flex;
+        gap: 80px;
+        flex-direction: column;
+    }
+
+    #perso, #class-java{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #mega .text-projet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #perso{
+        gap: 10%;
+        justify-content: center;
+        margin: 0px 0px 50px 0px;
+    }
 
 }
+
